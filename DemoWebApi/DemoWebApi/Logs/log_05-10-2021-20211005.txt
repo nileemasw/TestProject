@@ -1,0 +1,126 @@
+2021-10-05T20:37:26.7018051+05:30 0HMC827B4P6KC:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/api/student application/json 177 (ca22a1cb)
+2021-10-05T20:37:35.8680998+05:30 0HMC827B4P6KC:00000001 [INF] Route matched with "{action = \"Get\", controller = \"Student\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "DemoWebApi.Controllers.StudentController" ("DemoWebApi"). (122b2fdf)
+2021-10-05T20:37:39.6494999+05:30 0HMC827B4P6KC:00000001 [INF] MethodName :OnActionExecuting , controller:Student , action:Get (e8f30508)
+2021-10-05T20:37:39.6612364+05:30 0HMC827B4P6KC:00000001 [INF] Executing action method "DemoWebApi.Controllers.StudentController.Get (DemoWebApi)" - Validation state: Valid (dad538d7)
+2021-10-05T20:37:43.2935310+05:30 0HMC827B4P6KC:00000001 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"TestDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-10-05T20:37:50.0285652+05:30 0HMC827B4P6KC:00000001 [INF] Executed DbCommand ("483"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[RollNo], [s].[ContactNo], [s].[DateOfBirth], [s].[Email], [s].[FirstName], [s].[Gender], [s].[LastName]
+FROM [Students] AS [s]" (0723d8ff)
+2021-10-05T20:37:51.1403700+05:30 0HMC827B4P6KC:00000001 [INF] Executed action method "DemoWebApi.Controllers.StudentController.Get (DemoWebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 11464.0847ms. (50a9e262)
+2021-10-05T20:37:51.1411034+05:30 0HMC827B4P6KC:00000001 [INF] MethodName :OnActionExecuted , controller:Student , action:Get (6e6f9d94)
+2021-10-05T20:37:51.5076863+05:30 0HMC827B4P6KC:00000001 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[DemoWebApi.Models.Student, DemoWebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-10-05T20:37:53.7133528+05:30 0HMC827B4P6KC:00000001 [INF] Executed action "DemoWebApi.Controllers.StudentController.Get (DemoWebApi)" in 17809.6192ms (afa2e885)
+2021-10-05T20:37:53.8295485+05:30 0HMC827B4P6KC:00000001 [INF] Request finished in 27142.2778ms 200 application/json; charset=utf-8 (791a596a)
+2021-10-05T20:37:53.8611400+05:30  [INF] Connection id ""0HMC827B4P6KC"", Request id ""0HMC827B4P6KC:00000001"": the application completed without reading the entire request body. (54ac9468)
+2021-10-05T21:26:01.6833697+05:30 0HMC832GF9CRR:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:50274/  0 (ca22a1cb)
+2021-10-05T21:26:02.2417727+05:30 0HMC832GF9CRR:00000001 [INF] Request finished in 552.5576ms 200  (791a596a)
+2021-10-05T21:29:53.7987463+05:30 0HMC834LMMROI:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:50274/  0 (ca22a1cb)
+2021-10-05T21:29:53.9542185+05:30 0HMC834LMMROI:00000001 [INF] Request finished in 159.9297ms 200  (791a596a)
+2021-10-05T21:30:36.5156579+05:30 0HMC8352GUNLV:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:50274/  0 (ca22a1cb)
+2021-10-05T21:30:36.5818475+05:30 0HMC8352GUNLV:00000001 [INF] Request finished in 76.257ms 200  (791a596a)
+2021-10-05T21:31:56.2654814+05:30 0HMC835Q8B547:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:50274/  0 (ca22a1cb)
+2021-10-05T21:31:56.3499868+05:30 0HMC835Q8B547:00000001 [INF] Request finished in 88.4894ms 200  (791a596a)
+2021-10-05T21:34:52.9089080+05:30 0HMC835Q8B548:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44365/api/student application/json 177 (ca22a1cb)
+2021-10-05T21:35:02.1041768+05:30 0HMC835Q8B548:00000001 [INF] Route matched with "{action = \"Get\", controller = \"Student\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get()" on controller "DemoWebApi.Controllers.StudentController" ("DemoWebApi"). (122b2fdf)
+2021-10-05T21:35:09.5824869+05:30 0HMC835Q8B548:00000001 [INF] MethodName :OnActionExecuting , controller:Student , action:Get (e8f30508)
+2021-10-05T21:35:09.5966234+05:30 0HMC835Q8B548:00000001 [INF] Executing action method "DemoWebApi.Controllers.StudentController.Get (DemoWebApi)" - Validation state: Valid (dad538d7)
+2021-10-05T21:35:13.1397817+05:30 0HMC835Q8B548:00000001 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"TestDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-10-05T21:35:17.9754478+05:30 0HMC835Q8B548:00000001 [INF] Executed DbCommand ("157"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [s].[RollNo], [s].[ContactNo], [s].[DateOfBirth], [s].[Email], [s].[FirstName], [s].[Gender], [s].[LastName]
+FROM [Students] AS [s]" (0723d8ff)
+2021-10-05T21:35:18.2227986+05:30 0HMC835Q8B548:00000001 [INF] Executed action method "DemoWebApi.Controllers.StudentController.Get (DemoWebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 8617.0758ms. (50a9e262)
+2021-10-05T21:35:18.2306511+05:30 0HMC835Q8B548:00000001 [INF] MethodName :OnActionExecuted , controller:Student , action:Get (6e6f9d94)
+2021-10-05T21:35:18.3210972+05:30 0HMC835Q8B548:00000001 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[DemoWebApi.Models.Student, DemoWebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-10-05T21:35:19.1097349+05:30 0HMC835Q8B548:00000001 [INF] Executed action "DemoWebApi.Controllers.StudentController.Get (DemoWebApi)" in 16917.8664ms (afa2e885)
+2021-10-05T21:35:19.1406837+05:30 0HMC835Q8B548:00000001 [INF] Request finished in 26231.2529ms 200 application/json; charset=utf-8 (791a596a)
+2021-10-05T21:35:19.1906139+05:30  [INF] Connection id ""0HMC835Q8B548"", Request id ""0HMC835Q8B548:00000001"": the application completed without reading the entire request body. (54ac9468)
+2021-10-05T21:35:49.9362270+05:30 0HMC835Q8B548:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44365/api/values   (ca22a1cb)
+2021-10-05T21:35:49.9520606+05:30 0HMC835Q8B548:00000002 [INF] Route matched with "{action = \"Get\", controller = \"Values\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get()" on controller "DemoWebApi.Controllers.ValuesController" ("DemoWebApi"). (122b2fdf)
+2021-10-05T21:35:49.9587927+05:30 0HMC835Q8B548:00000002 [INF] Executing action method "DemoWebApi.Controllers.ValuesController.Get (DemoWebApi)" - Validation state: Valid (dad538d7)
+2021-10-05T21:35:49.9643244+05:30 0HMC835Q8B548:00000002 [INF] Executed action method "DemoWebApi.Controllers.ValuesController.Get (DemoWebApi)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.787ms. (50a9e262)
+2021-10-05T21:35:49.9715963+05:30 0HMC835Q8B548:00000002 [INF] Executing ObjectResult, writing value of type '"System.String[]"'. (8a1b66c8)
+2021-10-05T21:35:50.0005450+05:30 0HMC835Q8B548:00000002 [INF] Executed action "DemoWebApi.Controllers.ValuesController.Get (DemoWebApi)" in 42.8064ms (afa2e885)
+2021-10-05T21:35:50.0054481+05:30 0HMC835Q8B548:00000002 [INF] Request finished in 70.9291ms 200 application/json; charset=utf-8 (791a596a)
+2021-10-05T21:35:50.9529367+05:30 0HMC835Q8B548:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44365/favicon.ico   (ca22a1cb)
+2021-10-05T21:35:50.9591119+05:30 0HMC835Q8B548:00000003 [INF] Request finished in 6.4339ms 404  (791a596a)
+2021-10-05T21:36:05.8724520+05:30 0HMC835Q8B548:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44365/api/student/1 application/json 177 (ca22a1cb)
+2021-10-05T21:36:05.9908656+05:30 0HMC835Q8B548:00000004 [INF] Route matched with "{action = \"Get\", controller = \"Student\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Int64)" on controller "DemoWebApi.Controllers.StudentController" ("DemoWebApi"). (122b2fdf)
+2021-10-05T21:36:06.0643322+05:30 0HMC835Q8B548:00000004 [INF] MethodName :OnActionExecuting , controller:Student , action:Get (e8f30508)
+2021-10-05T21:36:06.0711870+05:30 0HMC835Q8B548:00000004 [INF] Executing action method "DemoWebApi.Controllers.StudentController.Get (DemoWebApi)" - Validation state: Valid (dad538d7)
+2021-10-05T21:36:06.1168434+05:30 0HMC835Q8B548:00000004 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"TestDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-10-05T21:36:06.6660510+05:30 0HMC835Q8B548:00000004 [INF] Executed DbCommand ("148"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [s].[RollNo], [s].[ContactNo], [s].[DateOfBirth], [s].[Email], [s].[FirstName], [s].[Gender], [s].[LastName]
+FROM [Students] AS [s]
+WHERE [s].[RollNo] = @__id_0" (0723d8ff)
+2021-10-05T21:36:06.6832827+05:30 0HMC835Q8B548:00000004 [INF] Executed action method "DemoWebApi.Controllers.StudentController.Get (DemoWebApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 606.5443ms. (50a9e262)
+2021-10-05T21:36:06.6936398+05:30 0HMC835Q8B548:00000004 [INF] MethodName :OnActionExecuted , controller:Student , action:Get (6e6f9d94)
+2021-10-05T21:36:06.7029856+05:30 0HMC835Q8B548:00000004 [INF] Executing ObjectResult, writing value of type '"DemoWebApi.Models.Student"'. (8a1b66c8)
+2021-10-05T21:36:06.7110739+05:30 0HMC835Q8B548:00000004 [INF] Executed action "DemoWebApi.Controllers.StudentController.Get (DemoWebApi)" in 712.5854ms (afa2e885)
+2021-10-05T21:36:06.7225526+05:30 0HMC835Q8B548:00000004 [INF] Request finished in 848.6313ms 200 application/json; charset=utf-8 (791a596a)
+2021-10-05T21:36:06.7289220+05:30  [INF] Connection id ""0HMC835Q8B548"", Request id ""0HMC835Q8B548:00000004"": the application completed without reading the entire request body. (54ac9468)
+2021-10-05T21:36:13.2777281+05:30 0HMC835Q8B548:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44365/api/student/2 application/json 177 (ca22a1cb)
+2021-10-05T21:36:13.2899575+05:30 0HMC835Q8B548:00000005 [INF] Route matched with "{action = \"Get\", controller = \"Student\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Int64)" on controller "DemoWebApi.Controllers.StudentController" ("DemoWebApi"). (122b2fdf)
+2021-10-05T21:36:13.3139969+05:30 0HMC835Q8B548:00000005 [INF] MethodName :OnActionExecuting , controller:Student , action:Get (e8f30508)
+2021-10-05T21:36:13.3257929+05:30 0HMC835Q8B548:00000005 [INF] Executing action method "DemoWebApi.Controllers.StudentController.Get (DemoWebApi)" - Validation state: Valid (dad538d7)
+2021-10-05T21:36:13.3377983+05:30 0HMC835Q8B548:00000005 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"TestDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-10-05T21:36:13.3483499+05:30 0HMC835Q8B548:00000005 [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [s].[RollNo], [s].[ContactNo], [s].[DateOfBirth], [s].[Email], [s].[FirstName], [s].[Gender], [s].[LastName]
+FROM [Students] AS [s]
+WHERE [s].[RollNo] = @__id_0" (0723d8ff)
+2021-10-05T21:36:13.3580778+05:30 0HMC835Q8B548:00000005 [INF] Executed action method "DemoWebApi.Controllers.StudentController.Get (DemoWebApi)", returned result "Microsoft.AspNetCore.Mvc.NoContentResult" in 24.9053ms. (50a9e262)
+2021-10-05T21:36:13.3648362+05:30 0HMC835Q8B548:00000005 [INF] MethodName :OnActionExecuted , controller:Student , action:Get (6e6f9d94)
+2021-10-05T21:36:13.3768900+05:30 0HMC835Q8B548:00000005 [INF] Executing HttpStatusCodeResult, setting HTTP status code 204 (e28ccfae)
+2021-10-05T21:36:13.3825108+05:30 0HMC835Q8B548:00000005 [INF] Executed action "DemoWebApi.Controllers.StudentController.Get (DemoWebApi)" in 70.9431ms (afa2e885)
+2021-10-05T21:36:13.3902128+05:30 0HMC835Q8B548:00000005 [INF] Request finished in 114.6521ms 204  (791a596a)
+2021-10-05T21:36:13.4017156+05:30  [INF] Connection id ""0HMC835Q8B548"", Request id ""0HMC835Q8B548:00000005"": the application completed without reading the entire request body. (54ac9468)
+2021-10-05T21:36:39.2757844+05:30 0HMC835Q8B548:00000006 [INF] Request starting HTTP/1.1 POST http://localhost:44365/api/student/ application/json 177 (ca22a1cb)
+2021-10-05T21:36:39.2897970+05:30 0HMC835Q8B548:00000006 [INF] Route matched with "{action = \"Post\", controller = \"Student\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(DemoWebApi.Models.Student)" on controller "DemoWebApi.Controllers.StudentController" ("DemoWebApi"). (122b2fdf)
+2021-10-05T21:36:40.0060530+05:30 0HMC835Q8B548:00000006 [INF] MethodName :OnActionExecuting , controller:Student , action:Post (3f890232)
+2021-10-05T21:36:40.0128946+05:30 0HMC835Q8B548:00000006 [INF] Executing action method "DemoWebApi.Controllers.StudentController.Post (DemoWebApi)" - Validation state: Valid (dad538d7)
+2021-10-05T21:36:40.0337170+05:30 0HMC835Q8B548:00000006 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"TestDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-10-05T21:36:40.9823628+05:30 0HMC835Q8B548:00000006 [INF] Executed DbCommand ("422"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Students] ([ContactNo], [DateOfBirth], [Email], [FirstName], [Gender], [LastName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT [RollNo]
+FROM [Students]
+WHERE @@ROWCOUNT = 1 AND [RollNo] = scope_identity();" (0723d8ff)
+2021-10-05T21:36:41.0970598+05:30 0HMC835Q8B548:00000006 [INF] Executed action method "DemoWebApi.Controllers.StudentController.Post (DemoWebApi)", returned result "Microsoft.AspNetCore.Mvc.CreatedAtRouteResult" in 1074.4243ms. (50a9e262)
+2021-10-05T21:36:41.1042815+05:30 0HMC835Q8B548:00000006 [INF] MethodName :OnActionExecuted , controller:Student , action:Post (0d2d6852)
+2021-10-05T21:36:41.1126558+05:30 0HMC835Q8B548:00000006 [INF] Executing ObjectResult, writing value of type '"DemoWebApi.Models.Student"'. (8a1b66c8)
+2021-10-05T21:36:41.1531599+05:30 0HMC835Q8B548:00000006 [INF] Executed action "DemoWebApi.Controllers.StudentController.Post (DemoWebApi)" in 1855.8241ms (afa2e885)
+2021-10-05T21:36:41.1665077+05:30 0HMC835Q8B548:00000006 [INF] Request finished in 1887.4243ms 201 application/json; charset=utf-8 (791a596a)
+2021-10-05T21:37:06.3056192+05:30 0HMC835Q8B548:00000007 [INF] Request starting HTTP/1.1 PUT http://localhost:44365/api/student/1 application/json 177 (ca22a1cb)
+2021-10-05T21:37:06.3162278+05:30 0HMC835Q8B548:00000007 [INF] Route matched with "{action = \"Put\", controller = \"Student\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(Int64, DemoWebApi.Models.Student)" on controller "DemoWebApi.Controllers.StudentController" ("DemoWebApi"). (122b2fdf)
+2021-10-05T21:37:06.3272407+05:30 0HMC835Q8B548:00000007 [INF] MethodName :OnActionExecuting , controller:Student , action:Put (c410ed43)
+2021-10-05T21:37:06.3328704+05:30 0HMC835Q8B548:00000007 [INF] Executing action method "DemoWebApi.Controllers.StudentController.Put (DemoWebApi)" - Validation state: Valid (dad538d7)
+2021-10-05T21:37:06.3401731+05:30 0HMC835Q8B548:00000007 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"TestDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-10-05T21:37:06.3627929+05:30 0HMC835Q8B548:00000007 [INF] Executed DbCommand ("6"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [s].[RollNo], [s].[ContactNo], [s].[DateOfBirth], [s].[Email], [s].[FirstName], [s].[Gender], [s].[LastName]
+FROM [Students] AS [s]
+WHERE [s].[RollNo] = @__id_0" (0723d8ff)
+2021-10-05T21:37:06.4668928+05:30 0HMC835Q8B548:00000007 [INF] Executed DbCommand ("88"ms) [Parameters=["@p3='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Students] SET [ContactNo] = @p0, [FirstName] = @p1, [LastName] = @p2
+WHERE [RollNo] = @p3;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2021-10-05T21:37:06.4812865+05:30 0HMC835Q8B548:00000007 [INF] Executed action method "DemoWebApi.Controllers.StudentController.Put (DemoWebApi)", returned result "Microsoft.AspNetCore.Mvc.OkResult" in 142.8368ms. (50a9e262)
+2021-10-05T21:37:06.4867480+05:30 0HMC835Q8B548:00000007 [INF] MethodName :OnActionExecuted , controller:Student , action:Put (fa5ee9f7)
+2021-10-05T21:37:06.4934137+05:30 0HMC835Q8B548:00000007 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2021-10-05T21:37:06.4995629+05:30 0HMC835Q8B548:00000007 [INF] Executed action "DemoWebApi.Controllers.StudentController.Put (DemoWebApi)" in 177.2104ms (afa2e885)
+2021-10-05T21:37:06.5054175+05:30 0HMC835Q8B548:00000007 [INF] Request finished in 199.3955ms 200  (791a596a)
+2021-10-05T21:37:37.0269074+05:30 0HMC835Q8B548:00000008 [INF] Request starting HTTP/1.1 DELETE http://localhost:44365/api/student/5 application/json 177 (ca22a1cb)
+2021-10-05T21:37:37.0417081+05:30 0HMC835Q8B548:00000008 [INF] Route matched with "{action = \"Delete\", controller = \"Student\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int64)" on controller "DemoWebApi.Controllers.StudentController" ("DemoWebApi"). (122b2fdf)
+2021-10-05T21:37:37.0487618+05:30 0HMC835Q8B548:00000008 [INF] MethodName :OnActionExecuting , controller:Student , action:Delete (ca22f851)
+2021-10-05T21:37:37.0537779+05:30 0HMC835Q8B548:00000008 [INF] Executing action method "DemoWebApi.Controllers.StudentController.Delete (DemoWebApi)" - Validation state: Valid (dad538d7)
+2021-10-05T21:37:37.0653923+05:30 0HMC835Q8B548:00000008 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"TestDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-10-05T21:37:37.0828409+05:30 0HMC835Q8B548:00000008 [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [s].[RollNo], [s].[ContactNo], [s].[DateOfBirth], [s].[Email], [s].[FirstName], [s].[Gender], [s].[LastName]
+FROM [Students] AS [s]
+WHERE [s].[RollNo] = @__id_0" (0723d8ff)
+2021-10-05T21:37:37.0901485+05:30 0HMC835Q8B548:00000008 [INF] Executed action method "DemoWebApi.Controllers.StudentController.Delete (DemoWebApi)", returned result "Microsoft.AspNetCore.Mvc.NotFoundObjectResult" in 31.0467ms. (50a9e262)
+2021-10-05T21:37:37.0975772+05:30 0HMC835Q8B548:00000008 [INF] MethodName :OnActionExecuted , controller:Student , action:Delete (60f6dcf3)
+2021-10-05T21:37:37.1032178+05:30 0HMC835Q8B548:00000008 [INF] Executing ObjectResult, writing value of type '"System.String"'. (8a1b66c8)
+2021-10-05T21:37:37.1115439+05:30 0HMC835Q8B548:00000008 [INF] Executed action "DemoWebApi.Controllers.StudentController.Delete (DemoWebApi)" in 61.0411ms (afa2e885)
+2021-10-05T21:37:37.1389324+05:30 0HMC835Q8B548:00000008 [INF] Request finished in 110.2189ms 404 text/plain; charset=utf-8 (791a596a)
+2021-10-05T21:37:37.1509117+05:30  [INF] Connection id ""0HMC835Q8B548"", Request id ""0HMC835Q8B548:00000008"": the application completed without reading the entire request body. (54ac9468)
