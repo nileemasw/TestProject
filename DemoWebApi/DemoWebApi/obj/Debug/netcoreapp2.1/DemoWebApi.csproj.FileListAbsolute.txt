@@ -1,0 +1,14 @@
+C:\Users\nilee\OneDrive\Desktop\MyTask\TestProject\DemoWebApi\DemoWebApi\bin\Debug\netcoreapp2.1\DemoWebApi.deps.json
+C:\Users\nilee\OneDrive\Desktop\MyTask\TestProject\DemoWebApi\DemoWebApi\bin\Debug\netcoreapp2.1\DemoWebApi.runtimeconfig.json
+C:\Users\nilee\OneDrive\Desktop\MyTask\TestProject\DemoWebApi\DemoWebApi\bin\Debug\netcoreapp2.1\DemoWebApi.runtimeconfig.dev.json
+C:\Users\nilee\OneDrive\Desktop\MyTask\TestProject\DemoWebApi\DemoWebApi\bin\Debug\netcoreapp2.1\DemoWebApi.dll
+C:\Users\nilee\OneDrive\Desktop\MyTask\TestProject\DemoWebApi\DemoWebApi\obj\Debug\netcoreapp2.1\DemoWebApi.csprojAssemblyReference.cache
+C:\Users\nilee\OneDrive\Desktop\MyTask\TestProject\DemoWebApi\DemoWebApi\obj\Debug\netcoreapp2.1\DemoWebApi.csproj.CoreCompileInputs.cache
+C:\Users\nilee\OneDrive\Desktop\MyTask\TestProject\DemoWebApi\DemoWebApi\obj\Debug\netcoreapp2.1\DemoWebApi.RazorAssemblyInfo.cache
+C:\Users\nilee\OneDrive\Desktop\MyTask\TestProject\DemoWebApi\DemoWebApi\obj\Debug\netcoreapp2.1\DemoWebApi.RazorAssemblyInfo.cs
+C:\Users\nilee\OneDrive\Desktop\MyTask\TestProject\DemoWebApi\DemoWebApi\obj\Debug\netcoreapp2.1\DemoWebApi.AssemblyInfoInputs.cache
+C:\Users\nilee\OneDrive\Desktop\MyTask\TestProject\DemoWebApi\DemoWebApi\obj\Debug\netcoreapp2.1\DemoWebApi.AssemblyInfo.cs
+C:\Users\nilee\OneDrive\Desktop\MyTask\TestProject\DemoWebApi\DemoWebApi\obj\Debug\netcoreapp2.1\DemoWebApi.RazorTargetAssemblyInfo.cache
+C:\Users\nilee\OneDrive\Desktop\MyTask\TestProject\DemoWebApi\DemoWebApi\bin\Debug\netcoreapp2.1\DemoWebApi.pdb
+C:\Users\nilee\OneDrive\Desktop\MyTask\TestProject\DemoWebApi\DemoWebApi\obj\Debug\netcoreapp2.1\DemoWebApi.dll
+C:\Users\nilee\OneDrive\Desktop\MyTask\TestProject\DemoWebApi\DemoWebApi\obj\Debug\netcoreapp2.1\DemoWebApi.pdb
